@@ -12,7 +12,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: white;
 }
-
+/* Lenka */
 main {
   max-width: 80vw;
   max-height: 70vw;
@@ -25,15 +25,18 @@ main {
 }
 
 .menu {
-  margin: 0;
-  text-align: center;
+  max-width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .menu a {
-  display: inline-block;
+  flex: 0 1 30%;
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
+  text-align: center;
   color: rgba(13, 13, 102, 0.829);
 }
 .menu a:hover,
@@ -68,4 +71,40 @@ main {
 
 .odkaz {
   color: rgba(13, 13, 102, 0.829);
+}
+
+/* Pomocníci */
+
+.box {
+  max-width: 80vw;
+  max-height: 70vw;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  background-color: rgb(224, 234, 248);
+  border-radius: 5px;
+}
+
+.nadpis {
+  color: rgba(13, 13, 102, 0.829);
+  text-align: center;
+}
+
+.foto-srdce {
+  max-width: 200px;
+  float: left;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-projektu {
+  clear: left;
+}
+
+.obrazek-masaz {
+  float: right;
+  max-width: 25rem;
+  border-radius: 5px;
+  margin-left: 2rem;
 }

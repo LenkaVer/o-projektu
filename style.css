@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
+}
+
+main {
+  max-width: 80vw;
+  max-height: 70vw;
+  margin: 0 auto;
+  padding: 60px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  background-color: rgb(224, 234, 248);
+  border-radius: 5px;
+}
+
+.menu {
+  margin: 0;
+  text-align: center;
+}
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 2rem;
+  color: rgba(13, 13, 102, 0.829);
+}
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+  background-color: rgba(13, 13, 102, 0.829);
+  color: white;
+}
+
+.foto-lenka {
+  width: 10%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.o-mne__zajimavosti-nadpis {
+  clear: left;
+  margin-top: 200px;
+}
+
+.watsu__foto {
+  max-width: 20%;
+  margin: 0 1rem;
+  float: right;
+  border-radius: 5px;
+}
+
+.o-mne__web {
+  clear: right;
+}
+
+.odkaz {
+  color: rgba(13, 13, 102, 0.829);
+}

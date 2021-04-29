@@ -17,7 +17,7 @@ main {
   max-width: 80vw;
   max-height: 70vw;
   margin: 0 auto;
-  padding: 60px;
+  padding: 3rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   overflow: auto;
   background-color: rgb(224, 234, 248);
@@ -32,7 +32,7 @@ main {
   display: inline-block;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem;
   color: rgba(13, 13, 102, 0.829);
 }
@@ -44,21 +44,20 @@ main {
 }
 
 .foto-lenka {
-  width: 10%;
+  max-width: 150px;
   border-radius: 50%;
   float: left;
   margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .o-mne__zajimavosti-nadpis {
   clear: left;
-  margin-top: 200px;
 }
 
 .watsu__foto {
-  max-width: 20%;
-  margin: 0 1rem;
+  max-width: 250px;
+  margin: 1rem;
   float: right;
   border-radius: 5px;
 }

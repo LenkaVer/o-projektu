@@ -31,7 +31,7 @@ main {
   justify-content: center;
 }
 .menu a {
-  flex: 0 1 30%;
+  flex: 1 1 30%;
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.5rem;
